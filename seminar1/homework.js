@@ -23,8 +23,7 @@ console.log(`\n  ЗАДАНИЕ 2
 - Вывести полученную коллекцию в консоль
 */
 
-const cardBody = document.querySelector(".card-body");
-const cardBodyLink = cardBody.querySelectorAll(".card-link");
+const cardBodyLink = document.querySelectorAll(".card-body .card-link");
 console.log("\n  ЗАДАНИЕ 3");
 console.log(cardBodyLink);
 
