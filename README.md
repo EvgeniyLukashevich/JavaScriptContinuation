@@ -1,3 +1,62 @@
+# Seminar 2. Homework 
+###### Решение находится в каталоге `seminar2`  
+
+### Исходная html-разметка:
+```html
+<p class="dropdown">Привет :)</p>
+<div class="dropdown">
+    <button
+    class="btn btn-secondary dropdown-toggle"
+    type="button"
+    id="dropdownMenuButton"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+    >
+    Dropdown button
+    </button>
+    <div class="menu dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+```
+
+### Task 1
+- Ко всем элементам, имеющим класс "**dropdown-item**" добавить еще один класс "**super-dropdown**"
+- Необходимо использовать методы `forEach` и `querySelectorAll` и свойство `classList` у элементов
+
+### Task 2
+- У элемента с классом "**btn**" необходимо убрать класс "**btn-secondary**", если он присутствует у этого элемента
+- Добавить, если такого класса у элемента не было
+
+
+### Task 3
+- Необходимо удалить класс "**dropdown-menu**" у элемента, у которого присутствует класс "**menu**"
+
+
+### Task 4
+- Используя метод `insertAdjacentHTML` добавить после div'a с классом "**dropdown**" следующую разметку:
+    ```html
+    <a href="#">link</a>
+    ```
+
+### Task 5
+- У элемента с id "**dropdownMenuButton**" заменить id на "**superDropdown**"
+
+### Task 6
+- Добавьте атрибут `data-dd` со значением **3** элементу у которого существует атрибут `aria-labelledby` равный "**dropdownMenuButton**" используя `dataset`
+
+### Task 7
+- Удалите атрибут `type` у элемента с классом "**dropdown-toggle**"
+
+
+##
+---
+
+
+
 # Seminar 1. Homework 
 ###### Решение находится в каталоге `seminar1`  
 
