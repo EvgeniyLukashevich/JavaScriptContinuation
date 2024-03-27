@@ -1,3 +1,7 @@
 .error {
     border-color: red; 
 }
+
+.message {
+    visibility: hidden;
+}
