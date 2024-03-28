@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - (570px + 2vw));
+  padding-right: calc(50% - (570px + 2vw));
+}
+
+.container {
+  padding: 0 2vw;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  min-height: 100vh;
+  background-color: #2e2e2e;
+}
+
+.header {
+  text-align: center;
+  background-color: #242424;
+}
+
+.header-title {
+  padding: 16px 0;
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgba(141, 91, 193, 1);
+  transition: all 0.3s;
+}
+
+.header-title:hover {
+  opacity: 0.7;
+}
+
+.cards-area {
+  padding: 48px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.card {
+  padding: 16px;
+  width: 312px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #242424;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  background-color: #242424;
+  border-color: #242424;
+  box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .card-title {
+  color: rgba(141, 91, 193, 1);
+}
+
+.card:hover .card-pretitle {
+  color: #d3d3d3;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #d3d3d3;
+  transition: all 0.3s;
+}
+
+.card-pretitle {
+  font-size: 18px;
+  font-weight: 500;
+  color: #959595;
+  transition: all 0.3s;
+}
+
+.card-address {
+  font-size: 14px;
+  font-weight: 400;
+  color: #959595;
+}
+
+.card-link {
+  color: rgba(45, 153, 100, 0.7);
+  transition: all 0.3s;
+}
+
+.card-link:hover {
+  color: rgba(45, 153, 100, 1);
+}
