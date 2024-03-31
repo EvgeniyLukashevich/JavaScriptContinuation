@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "brand": "Mango",
+    "section": "men",
+    "name": "t-shirt",
+    "image": "img/cards_img1.jpg",
+    "price": 21.99,
+    "alt": "product1"
+  },
+  {
+    "id": 2,
+    "brand": "Mango",
+    "section": "women",
+    "name": "blouse",
+    "image": "img/cards_img2.jpg",
+    "price": 24.99,
+    "alt": "product2"
+  },
+  {
+    "id": 3,
+    "brand": "Mango",
+    "section": "men",
+    "name": "windbreaker",
+    "image": "img/cards_img3.jpg",
+    "price": 55.49,
+    "alt": "product3"
+  },
+  {
+    "id": 4,
+    "brand": "Mango",
+    "section": "women",
+    "name": "Dress",
+    "image": "img/cards_img4.jpg",
+    "price": 39.99,
+    "alt": "product4"
+  },
+  {
+    "id": 5,
+    "brand": "Mango",
+    "section": "women",
+    "name": "tunic",
+    "image": "img/cards_img5.jpg",
+    "price": 34.99,
+    "alt": "product5"
+  },
+  {
+    "id": 6,
+    "brand": "Mango",
+    "section": "men",
+    "name": "blazer",
+    "image": "img/cards_img6.jpg",
+    "price": 43.55,
+    "alt": "product6"
+  },
+  {
+    "id": 7,
+    "brand": "Mango",
+    "section": "men",
+    "name": "breeches",
+    "image": "img/cards_img7.jpg",
+    "price": 37.29,
+    "alt": "product7"
+  },
+  {
+    "id": 8,
+    "brand": "Mango",
+    "section": "people",
+    "name": "sweatshirt",
+    "image": "img/cards_img8.jpg",
+    "price": 49.99,
+    "alt": "product8"
+  }
+]
