@@ -5,7 +5,7 @@
     "section": "men",
     "name": "t-shirt",
     "image": "img/cards_img1.jpg",
-    "price": 21.99,
+    "price": 21.00,
     "alt": "product1"
   },
   {
@@ -50,7 +50,7 @@
     "section": "men",
     "name": "blazer",
     "image": "img/cards_img6.jpg",
-    "price": 43.55,
+    "price": 43.00,
     "alt": "product6"
   },
   {
@@ -59,7 +59,7 @@
     "section": "men",
     "name": "breeches",
     "image": "img/cards_img7.jpg",
-    "price": 37.29,
+    "price": 37.00,
     "alt": "product7"
   },
   {
