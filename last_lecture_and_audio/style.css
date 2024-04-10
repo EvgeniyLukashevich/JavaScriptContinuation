@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  padding-left: calc(50% - (1024px / 2 + 2vw));
+  padding-right: calc(50% - (1024px / 2 + 2vw));
+}
+
+.container {
+  padding: 0 2vw;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(46, 124, 209, 1);
+  transition: all 0.3s;
+}
+a:hover {
+  color: rgba(10, 186, 181, 1);
+}
+
+h1 {
+  color: rgba(10, 186, 181, 1);
+  padding: 3vh 0;
+  letter-spacing: 4px;
+}
+h2 {
+  color: rgba(46, 124, 209, 1);
+  padding-bottom: 2vh;
+  letter-spacing: 3px;
+}
+h3 {
+  color: rgba(149, 149, 149, 1);
+  padding-bottom: 1vh;
+  letter-spacing: 2px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  min-height: 100vh;
+  position: relative;
+  background-color: rgba(46, 46, 46, 1);
+}
+
+.header {
+  background-color: rgba(36, 36, 36, 1);
+}
+
+/* AUDIO */
+.audio {
+  border-bottom: 1px solid rgba(36, 36, 36, 1);
+}
+.audio-area {
+  padding-bottom: 48px;
+  padding-top: 2vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 48px;
+}
+.audio-title{
+  padding-top: 48px;
+  letter-spacing: 3px;
+}
+.scroll-area {
+  padding: 48px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.audio-item {
+  height: 60px;
+  width: 256px;
+  background-color: rgba(36, 36, 36, 1);
+  border: 1px solid rgba(36, 36, 36, 1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  color: rgba(46, 124, 209, 0.7);
+  transition: all 0.3s;
+  cursor: move;
+}
+.over {
+  border: 1px solid rgba(10, 186, 181, 1);
+}
+.audio-item:hover {
+  border: 1px solid rgba(46, 124, 209, 0.7);
+}
+.audio-item i:hover {
+  color: rgba(10, 186, 181, 1);
+}
+.audio-item__control {
+  cursor: pointer;
+  font-size: 28px;
+  transition: all 0.3s;
+}
+.audio-item__info {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.audio-item__info__artist {
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.audio-item__info__track {
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.geo {
+  border-bottom: 1px solid rgba(36, 36, 36, 1);
+}
+.geo-area {
+  padding: 48px 0;
+}
+.geo-position {
+  color: rgba(149, 149, 149, 1);
+  padding-bottom: 1vh;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.watch-position {
+  color: rgba(149, 149, 149, 1);
+  padding-bottom: 1vh;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.audio-item__info__artist2 {
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(10, 186, 181, 1);
+}
+.audio-item__info__track2 {
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(10, 186, 181, 1);
+}
+
